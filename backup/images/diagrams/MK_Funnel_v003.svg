@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 834 468" style="enable-background:new 0 0 834 468;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1D1D1B;}
+	.st1{font-family:'OpenSans';}
+	.st2{font-size:18px;}
+	.st3{fill:#E5E5E5;}
+	.st4{fill:#FF7300;}
+	.st5{fill:#FF8533;}
+	.st6{fill:#FFA766;}
+	.st7{fill:#FFC599;}
+	.st8{fill:#FFE2CC;}
+	.st9{fill:#FFF8F3;}
+	.st10{fill:none;stroke:#FF7300;stroke-width:3;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#FF7300;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:12.2,8.13;}
+	.st12{fill:#FF7400;}
+</style>
+<title>MK_Funnel_v003</title>
+<text transform="matrix(1 0 0 1 56.5 16.79)" class="st0 st1 st2">AWARENESS</text>
+<text transform="matrix(1 0 0 1 182.94 16.79)" class="st0 st1 st2">ACQUISITION</text>
+<text transform="matrix(1 0 0 1 452.72 16.79)" class="st0 st1 st2">RETENTION</text>
+<text transform="matrix(1 0 0 1 319 16.79)" class="st0 st1 st2">ACTIVATION</text>
+<text transform="matrix(1 0 0 1 721.29 16.79)" class="st0 st1 st2">REFERRAL</text>
+<text transform="matrix(1 0 0 1 592.5 16.79)" class="st0 st1 st2">REVENUE</text>
+<text transform="matrix(6.123234e-17 -1 1 6.123234e-17 20.97 258.8896)" class="st1 st2">PERSONA</text>
+<polygon class="st3" points="580.5,145.9 712.6,270.4 816,260.9 683.9,156.1 "/>
+<polygon class="st3" points="450.2,295.4 580.5,145.9 683.9,156.1 553.6,285.3 "/>
+<polygon class="st3" points="320,121.6 450.2,295.4 553.6,285.3 423.4,131 "/>
+<polygon class="st3" points="187.9,319.8 320,121.6 423.4,131 291.3,310.3 "/>
+<polygon class="st3" points="58.6,96.9 188.8,320.1 292.2,310 160.1,106.4 "/>
+<polygon class="st4" points="57.6,332.5 161,322.7 161,106.3 57.6,96.5 "/>
+<polygon class="st5" points="188.5,320.1 291.9,310.3 291.9,118.7 188.5,108.9 "/>
+<polygon class="st6" points="319.4,307.7 422.8,297.9 422.8,131.1 319.4,121.3 "/>
+<polygon class="st7" points="450.3,295.3 553.7,285.5 553.7,143.5 450.3,133.7 "/>
+<polygon class="st8" points="581.2,282.9 684.6,273.1 684.6,155.9 581.2,146.1 "/>
+<polygon class="st9" points="712.1,270.5 815.5,260.7 815.5,168.3 712.1,158.5 "/>
+<path class="st10" d="M188.3,69.5l5.9,1"/>
+<path class="st11" d="M202.2,71.8c52,8.7,235.4,39,303.6,47.2c59.4,7.2,211.5,19.1,277.3,24.1"/>
+<path class="st10" d="M787.2,143.4l6,0.4"/>
+<polygon class="st4" points="814.3,145.5 783.6,155.3 791.6,143.7 785.5,131 "/>
+<text transform="matrix(0.9928 0.1201 -0.1201 0.9928 425.6799 80.25)" class="st12 st1 st2">USER EXPERIENCE</text>
+<path class="st10" d="M188.9,354.8l5.9-0.9"/>
+<path class="st11" d="M202.9,352.7c51.3-7.8,229.6-34.7,296.1-41.8c61.3-6.5,218.7-16.7,285.8-21"/>
+<path class="st10" d="M788.9,289.8l6-0.4"/>
+<polygon class="st4" points="816,288.1 787,302.1 793.3,289.5 785.4,277.8 "/>
+<text transform="matrix(0.9945 -0.1044 0.1044 0.9945 462.0201 352.06)" class="st12 st1 st2">CONTENT</text>
+<rect x="199" y="431.9" class="st12" width="627" height="5.7"/>
+<text transform="matrix(1 0 0 1 198 428.72)" class="st1 st2">CRM - AUTOMATION</text>
+<rect x="68" y="456.9" class="st12" width="758" height="5.7"/>
+<text transform="matrix(1 0 0 1 67 452.72)" class="st1 st2">DATA</text>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.growthhackingworkshops.com)",
+      "Bash(curl -sL -o index.html \"https://www.growthhackingworkshops.com/\")"
+    ]
+  }
+}

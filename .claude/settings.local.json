@@ -6,7 +6,10 @@
       "Bash(node --version)",
       "Bash(npm --version)",
       "Bash(npx astro add)",
-      "Bash(npm run build)"
+      "Bash(npm run build)",
+      "Bash(curl -sL -o /workspaces/growthhackingworkshops.com/public/favicon.ico \"https://www.madkings.com/favicon.ico\")",
+      "Bash(curl -sL \"https://www.madkings.com/\")",
+      "Bash(curl -sL -o /workspaces/growthhackingworkshops.com/public/favicon.png \"https://www.madkings.com/wp-content/uploads/2018/02/MK_favicon_orange_RGB-1.png\")"
     ]
   }
 }

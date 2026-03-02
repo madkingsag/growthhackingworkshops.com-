@@ -1,0 +1,29 @@
+---
+import { footer } from '../data/content';
+---
+
+<footer class="py-12 bg-brand-blue text-white">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="flex flex-col items-center md:items-start">
+        <img src="/images/MK_Academy_Logo.svg" alt="MAD Kings Academy" class="h-12 mb-4" />
+        <p class="text-white/70 text-sm">
+          {footer.copyright}{' '}
+          <a href={footer.website} target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors underline">
+            MAD Kings
+          </a>
+        </p>
+      </div>
+      <div class="text-center md:text-right">
+        <h4 class="font-bold uppercase tracking-wider mb-3">Address</h4>
+        {footer.address.map((line) => (
+          <p class="text-white/80 text-sm">{line}</p>
+        ))}
+        <h4 class="font-bold uppercase tracking-wider mt-4 mb-2">E-mail</h4>
+        <a href={`mailto:${footer.email}`} class="text-white/80 text-sm hover:text-white transition-colors">
+          {footer.email}
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,21 @@
+---
+import { painPoints, whyAttendParagraph } from '../data/content';
+---
+
+<section id="why-attend" class="relative py-16 md:py-24 overflow-hidden">
+  <div class="absolute inset-0 bg-no-repeat bg-right-bottom bg-contain opacity-40" style="background-image: url('/images/bg-graph.svg');"></div>
+  <div class="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Why you should attend</h2>
+    <ul class="space-y-6 mb-10">
+      {painPoints.map((point) => (
+        <li class="flex items-start gap-4 text-lg text-gray-700">
+          <span class="text-brand-orange text-xl leading-none mt-1.5 shrink-0">&#9679;</span>
+          <span>{point}</span>
+        </li>
+      ))}
+    </ul>
+    <p class="text-gray-500 text-lg leading-relaxed text-center">
+      {whyAttendParagraph}
+    </p>
+  </div>
+</section>

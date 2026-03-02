@@ -1,0 +1,18 @@
+---
+import { clientLogos } from '../data/content';
+---
+
+<section class="py-16 md:py-24">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Companies we have trained</h2>
+    <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-8 items-center justify-items-center">
+      {clientLogos.map((logo) => (
+        <img
+          src={`/images/logos/${logo}`}
+          alt={logo.replace(/\.(png|svg)$/, '').replace(/-/g, ' ')}
+          class="h-10 md:h-12 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
+        />
+      ))}
+    </div>
+  </div>
+</section>

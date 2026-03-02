@@ -1,0 +1,52 @@
+---
+import { schedule } from '../data/content';
+---
+
+<section id="schedule" class="py-16 md:py-24">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 uppercase">
+      Last Workshop Event Schedule
+    </h2>
+    <div class="grid md:grid-cols-2 gap-8 md:gap-12">
+      {/* Thursday */}
+      <div>
+        <h3 class="text-2xl font-bold mb-6 text-center uppercase tracking-wider text-brand-blue">Thursday</h3>
+        <div class="space-y-4">
+          {schedule.thursday.map((item) => (
+            <div class="border-l-2 border-brand-blue pl-4">
+              <p class="text-brand-blue text-sm font-medium">{item.time}</p>
+              <p class="font-bold text-lg text-brand-dark">{item.topic}</p>
+              {item.subtopics && (
+                <ul class="mt-2 space-y-1">
+                  {item.subtopics.map((sub) => (
+                    <li class="text-gray-500 text-sm pl-4">&mdash; {sub}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Friday */}
+      <div>
+        <h3 class="text-2xl font-bold mb-6 text-center uppercase tracking-wider text-brand-orange">Friday</h3>
+        <div class="space-y-4">
+          {schedule.friday.map((item) => (
+            <div class="border-l-2 border-brand-orange pl-4">
+              <p class="text-brand-orange text-sm font-medium">{item.time}</p>
+              <p class="font-bold text-lg text-brand-dark">{item.topic}</p>
+              {item.subtopics && (
+                <ul class="mt-2 space-y-1">
+                  {item.subtopics.map((sub) => (
+                    <li class="text-gray-500 text-sm pl-4">&mdash; {sub}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
